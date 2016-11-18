@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="projectDemo">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="app/common/css/main.css" media="screen" title="no title">
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-css/angular-css.min.js"></script>
+  </head>
+  <body>
+
+    <footer>
+        <div><a ui-sref="home"><img src="http://img08.jiuxian.com/bill/2016/0224/cccd8df26a754c139de800406af82178.png"></a></div>
+        <div><a ui-sref="cate"><img src="http://img08.jiuxian.com/bill/2016/0224/36a49b28ec5e4cdf9dbe37988199487d.png"></a></div>
+        <div><a ui-sref="center"><img src="http://img07.jiuxian.com/bill/2016/1118/db09cc8d992e4d0c86cbfd3c45a6feb0.png"></a></div>
+        <div><a ui-sref="cart"><img src="http://img07.jiuxian.com/bill/2016/0224/42baf46987b6460bb43b3396e9941653.png"></a></div>
+        <div><a ui-sref="mine"><img src="http://img10.jiuxian.com/bill/2016/0224/cba9029a8f4444a989a2ab5aa84c6538.png"></a></div>
+    </footer>
+
+    <div ui-view></div>
+    <script src="app/app.js"></script>
+    <script src="app/pages/home/home.js"></script>
+    <script src="app/pages/cate/cate.js"></script>
+    <script src="app/pages/center/center.js"></script>
+    <script src="app/pages/cart/cart.js"></script>
+    <script src="app/pages/mine/mine.js"></script>
+    <script type="text/javascript">
+    document.documentElement.style.fontSize = innerWidth/10+"px";
+    window.onresize = function(){
+      document.documentElement.style.fontSize = innerWidth/10+"px";
+    }
+    
+    </script>
+  </body>
+</html>

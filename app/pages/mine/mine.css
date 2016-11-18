@@ -1,0 +1,200 @@
+/*header*/
+.all_mine header{
+	height: 0.776699rem;
+	border-bottom: 0.021231rem solid #e8e8e8;
+	background: #de4943;
+	display: flex;
+	padding: 0 0.194175rem;
+	justify-content:space-between;
+	align-items:center;
+}
+header img{
+	width: 0.485437rem;
+	height: 0.427184rem;
+}
+header h2{
+	width: 1.567961rem;
+	height: 0.427184rem;
+	color: #fff;
+	font-size: 0.291262rem;
+}
+/*login*/
+.login{
+	height: 1.165049rem;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.login p{
+	font-size: 0.23301rem;
+	font-weight: bold;
+	color: #626365;
+}
+.login p:first-of-type{
+	width: 1.165049rem;
+	height: 0.427184rem;
+	line-height: 0.427184rem;
+	text-align: center;
+
+}
+.login p:last-of-type{
+	width: 2.252427rem;
+	height: 0.427184rem;
+	line-height: 0.427184rem;
+	text-align: center;
+}
+.login .che{
+	color: #de4943;
+	border-bottom: 0.038835rem solid #de4943;
+}
+/*user*/
+.user{
+	height: 1.242718rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.user input{
+	width: 8.07767rem;
+	height: 0.815534rem;
+	border: 0.019417rem solid #cccccc;
+	padding-left: 0.38835rem;
+	line-height: 0.815534rem;
+	background: url("app/images/top.gif") no-repeat;
+	background-size:0.368932rem 0.407767rem; 
+}
+/*pass*/
+.pass{
+	height: 1.242718rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.pass input{
+	width: 8.07767rem;
+	height: 0.815534rem;
+	border: 0.019417rem solid #cccccc;
+	padding-left: 0.38835rem;
+	line-height: 0.815534rem;
+	background-image: url("app/images/pass.gif") no-repeat;
+	background-size:0.368932rem 0.407767rem; 
+}
+/*istrue*/
+.yan{
+	height: 1.592233rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.istrue{
+	width: 8.07767rem;
+	height: 0.815534rem;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.istrue input{
+	width: 4.466019rem;
+	height: 0.815534rem;
+	border: 0.019417rem solid #cccccc;
+	padding-left: 0.38835rem;
+	line-height: 0.815534rem;
+	
+}
+.istrue span{
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 2.135922rem;
+	height:0.815534rem ;
+	color: red;
+	background:linear-gradient(to right,#c5c5c5,#fbfbfb);
+	font-size: 0.504854rem;text-align: center;
+	line-height: 0.815534rem;
+
+}
+.istrue a{
+	display: inline-block;
+	text-decoration: none;
+	color: #626365;
+	font-size: 0.252427rem;
+}
+/*lgin*/
+.lgin{
+	height: 1.359223rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.lgin input{
+	width: 5.825243rem;
+	height: 0.660194rem;
+	background: #de4b45;
+	font-size:0.271845rem ;
+	color: #fff;
+	text-align: center;
+	line-height: 0.660194rem;
+	border: none;border-radius: 0.038835rem;
+}
+/*free_login*/
+.free_login{
+	height: 0.873786rem;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	padding: 0  0.776699rem;
+	
+	
+}
+.free_login a{
+	color: #666666;
+	font-size: 0.271845rem;
+	text-decoration: underline;
+}
+/*compny*/
+.com{
+	height: 0.970874rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.compny {
+	width: 8.07767rem;
+	height: 0.815534rem;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.compny span{
+	display: inline-block;
+	width: 2.970874rem;
+	height: 0.019417rem;
+	background: #cccccc;
+	line-height: 0.271845rem;
+	margin-top: 0.194175rem;
+}
+.compny h2{
+	width: 1.669903rem;
+	height: 0.271845rem;
+	font-size: 0.271845rem;
+	text-align: center;
+	color: #ccc;
+}
+/*pic_log*/
+.pic_log{
+	height: 1.436893rem;
+	display: flex;
+	justify-content:center;
+	align-items:center; 
+}
+.pic_log p{
+	width: 3.572816rem;
+	height: 1.165049rem;
+	display: flex;
+	justify-content:space-between;
+	align-items:center; 
+
+}
+.pic_log p img{
+	width: 0.893204rem;
+	height: 0.893204rem;
+}
